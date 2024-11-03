@@ -31,7 +31,7 @@ const Navigation = ({ mobileMenuPos = "left" }: MobileMenuOpeningPosition) => {
               {/* Mobile Hamburger menu */}
               <AlignJustify className="text-black" />
             </button>
-            <Link className="flex items-center md:mr-4" href={"/"}>
+            <Link className="flex items-center" href={"/"}>
               <Image
                 width={150}
                 className="bg-white pl-[15px] pt-2 pb-2 mt-1 rounded-md"
