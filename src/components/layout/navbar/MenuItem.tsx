@@ -47,7 +47,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
           href={href}
           className={`${
             active ? "active" : ""
-          } text-black w-full lg:text-[13px] xl:text-[16px] 2xl:text-[17px] font-medium px-4 flex items-center lg:px-[0.7rem] ${
+          } text-black w-full lg:text-[13px] xl:text-[16px] 2xl:text-[15px] font-medium px-4 flex items-center lg:px-[0.7rem] ${
             sora.className
           }`}
           onClick={() => {
