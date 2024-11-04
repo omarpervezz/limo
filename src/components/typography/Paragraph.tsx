@@ -1,3 +1,4 @@
+import { cn } from "@/utils/utils";
 import { FC } from "react";
 
 interface ParagraphProps {
@@ -8,7 +9,10 @@ interface ParagraphProps {
 const Paragraph: FC<ParagraphProps> = ({ children, className }) => {
   return (
     <p
-      className={`text-[12px] leading-[18px] md:text-[14px] md:leading-[22px] lg:text-[16px] lg:leading-[24px] font-normal ${className}`}
+      className={cn(
+        "text-[12px] leading-[18px] md:text-[14px] md:leading-[22px] lg:text-[16px] lg:leading-[27px] font-normal",
+        className
+      )}
     >
       {children}
     </p>

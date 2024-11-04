@@ -193,7 +193,7 @@ const BlogList: React.FC<BlogPropsType> = ({ blogs }) => {
             className={`px-4 py-1 rounded-md text-sm font-semibold ${
               currentPage === 1
                 ? "text-gray-400"
-                : "text-[#cf4045] hover:bg-[#f1e4e5] transition-all duration-150"
+                : "text-[#015f86] hover:bg-[#f1e4e5] transition-all duration-150"
             }`}
           >
             Previous
@@ -206,7 +206,7 @@ const BlogList: React.FC<BlogPropsType> = ({ blogs }) => {
             className={`px-4 py-1 rounded-md text-sm font-semibold ${
               currentPage === totalPages
                 ? "text-gray-400"
-                : "text-[#cf4045] hover:bg-[#f1e4e5] transition-all duration-150"
+                : "text-[#015f86] hover:bg-[#f1e4e5] transition-all duration-150"
             }`}
           >
             Next

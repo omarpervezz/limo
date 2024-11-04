@@ -9,7 +9,7 @@ import Paragraph from "@/components/typography/Paragraph";
 interface CityService {
   city: string;
   description: string;
-  path: string;
+  slug: string;
   cityImage: string;
 }
 
@@ -55,7 +55,7 @@ const ServiceArea: React.FC<ServiceAreaProps> = ({ services_area }) => {
                         .join(" ") + "..."
                     : area.description}
                 </Paragraph>
-                <Link href={`/service-area/${area.path}`} passHref>
+                <Link href={`/service-area/${area.slug}`} passHref>
                   <Button
                     variant="signUpBtn"
                     className="border border-[#015f86] bg-[#015f86] text-white rounded-md"
