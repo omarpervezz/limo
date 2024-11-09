@@ -85,8 +85,8 @@ const Hero: React.FC<HeroProps> = ({ banner }) => {
         </div>
         <div className="w-full flex flex-col md:flex-row md:justify-center border-[#a18b7f] text-white">
           <div className="w-full flex items-center lg:h-[100px] xl:h-[150px] drop-shadow-md bg-white rounded-2xl border border-gray-200 relative box-border xl:px-7">
-            <div className="flex flex-col md:flex-row gap-2 py-3 px-5 w-full">
-            <div className="w-full flex flex-row gap-2">
+            <div className="flex flex-col md:flex-row gap-4 py-3 px-5 w-full">
+            <div className="w-full flex flex-row gap-4">
             <div className="w-full">
              <Button
                 variant="btnOutline"
@@ -106,7 +106,7 @@ const Hero: React.FC<HeroProps> = ({ banner }) => {
               </Button>
              </div>
             </div>
-             <div className="w-full flex flex-row gap-2">
+             <div className="w-full flex flex-row gap-4">
               <div className="w-full">
               <Button
                 variant="btnOutline"
