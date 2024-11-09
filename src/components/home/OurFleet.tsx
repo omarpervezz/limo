@@ -53,7 +53,7 @@ const OurFleet: React.FC<FleetProps> = ({ fleet }) => {
           <div className="flex mt-8 md:mt-12 justify-center">
             <div className="flex flex-wrap justify-center">
               <button
-                className={` px-6 py-2 mx-2 mb-2 rounded-md ${
+                className={` px-6 py-2 mx-2 mb-2 text-[10px] leading-[21px] md:text-[12px] md:leading-[23px] lg:text-[14px] rounded-md ${
                   activeFilter === "All"
                     ? "bg-[#015f86] text-white border border-[#015f86]"
                     : "bg-gray-200 text-gray-600 border-none"
@@ -63,7 +63,7 @@ const OurFleet: React.FC<FleetProps> = ({ fleet }) => {
                 All
               </button>
               <button
-                className={`px-6 py-2 mx-2 mb-2 rounded ${
+                className={`px-6 py-2 mx-2 mb-2 text-[10px] leading-[21px] md:text-[12px] md:leading-[23px] lg:text-[14px] rounded ${
                   activeFilter === "Executive Car"
                     ? "bg-[#015f86] text-white border border-[#015f86]"
                     : "bg-gray-200 text-gray-600 border-none"
@@ -73,7 +73,7 @@ const OurFleet: React.FC<FleetProps> = ({ fleet }) => {
                 Executive Car
               </button>
               <button
-                className={`px-6 py-2 mx-2 mb-2 rounded ${
+                className={`px-6 py-2 mx-2 mb-2 text-[10px] leading-[21px] md:text-[12px] md:leading-[23px] lg:text-[14px] rounded ${
                   activeFilter === "SUV"
                     ? "bg-[#015f86] text-white border border-[#015f86]"
                     : "bg-gray-200 text-gray-600 border-none"
@@ -84,7 +84,7 @@ const OurFleet: React.FC<FleetProps> = ({ fleet }) => {
               </button>
 
               <button
-                className={`px-6 py-2 mx-2 mb-2 rounded ${
+                className={`px-6 py-2 mx-2 mb-2 text-[10px] leading-[21px] md:text-[12px] md:leading-[23px] lg:text-[14px] rounded ${
                   activeFilter === "Sedan"
                     ? "bg-[#015f86] text-white border border-[#015f86]"
                     : "bg-gray-200 text-gray-600 border-none"
@@ -94,7 +94,7 @@ const OurFleet: React.FC<FleetProps> = ({ fleet }) => {
                 Sedan
               </button>
               <button
-                className={`px-6 py-2 mx-2 mb-2 rounded ${
+                className={`px-6 py-2 mx-2 mb-2 text-[10px] leading-[21px] md:text-[12px] md:leading-[23px] lg:text-[14px] rounded ${
                   activeFilter === "People Mover"
                     ? "bg-[#015f86] text-white border border-[#015f86]"
                     : "bg-gray-200 text-gray-600 border-none"
@@ -104,7 +104,7 @@ const OurFleet: React.FC<FleetProps> = ({ fleet }) => {
                 People Mover
               </button>
               <button
-                className={`px-6 py-2 mx-2 mb-2 rounded ${
+                className={`px-6 py-2 mx-2 mb-2 text-[10px] leading-[21px] md:text-[12px] md:leading-[23px] lg:text-[14px] rounded ${
                   activeFilter === "Stretch Limousine"
                     ? "bg-[#015f86] text-white border border-[#015f86]"
                     : "bg-gray-200 text-gray-600 border-none"

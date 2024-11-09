@@ -280,7 +280,7 @@ MEDIA QUERIES
   @apply mt-8 md:mt-12;
 }
 .WidgetTitle__Inner-sc-ruy1gu-1 .kkOWZv {
-  @apply font-sans text-[28px] leading-[40px] md:text-[36px] md:leading-[48px] lg:text-[42px] lg:leading-[55px] text-black font-semibold text-left;
+  @apply font-sans text-[28px] leading-[40px] md:text-[36px] md:leading-[48px] lg:text-[42px] lg:leading-[55px] text-black font-semibold text-left pl-[18px];
 }
 
 .hkJfHh,

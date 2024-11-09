@@ -25,7 +25,7 @@ export default function CustomerReview() {
 
   return (
     <div className="relative  w-[95%] md:w-[95%] lg:w-[95%] xl:w-[90%] 2xl:w-[85%] rounded-2xl mx-auto">
-      <MaxWidthWrapper className="">
+      <MaxWidthWrapper>
         <div className="flex flex-wrap -mx-5">
           <div className="w-full">
             {loading ? ( // Conditional rendering based on loading state

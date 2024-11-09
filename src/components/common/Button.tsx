@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         btnOutline:
-          "pt-[12px] pr-[30px] pb-[12px] pl-[20px] md:pt-[15px] md:pr-[40px] md:pb-[15px] md:pl-[50px] lg:pt-[17px] lg:pr-[47px] lg:pb-[17px] lg:pl-[60px] inline-flex items-center gap-x-2 text-[10px] leading-[21px] md:text-[12px] md:leading-[23px] lg:text-[14px] lg:leading-[25px] font-medium border border-transparent disabled:opacity-50 disabled:pointer-events-none border border-gray-900 bg-gray-800 text-white",
+          "inline-flex items-center gap-x-2 text-[10px] leading-[21px] md:text-[12px] md:leading-[23px] lg:text-[14px] lg:leading-[25px] font-medium border border-transparent disabled:opacity-50 disabled:pointer-events-none border border-gray-900 bg-gray-800 text-white",
         signUpBtn:
           "pt-[8px] pr-[20px] pb-[8px] pl-[12px] md:pt-[10px] md:pr-[25px] md:pb-[10px] md:pl-[30px] lg:pt-[10px] lg:pr-[35px] lg:pb-[10px] lg:pl-[40px] inline-flex items-center gap-x-2 text-[10px] leading-[21px] md:text-[12px] md:leading-[23px] lg:text-[14px] lg:leading-[25px] font-medium border border-transparent disabled:opacity-50 disabled:pointer-events-none border border-[#bfa37c] bg-[#bfa37c]",
       },

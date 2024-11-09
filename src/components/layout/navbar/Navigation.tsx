@@ -19,12 +19,12 @@ const Navigation = ({ mobileMenuPos = "left" }: MobileMenuOpeningPosition) => {
   return (
     <>
       {/* <TopHeader /> */}
-      <div className="h-[90px w-[95%] md:w-[95%] lg:w-[95%] xl:w-[90%] 2xl:w-[85%] flex items-center rounded-2xl mx-auto">
+      <div className="h-[70px] w-[95%] md:w-[95%] lg:w-[95%] xl:w-[90%] 2xl:w-[85%] flex items-center rounded-2xl mx-auto">
         <div className="max-w-screen-2xl w-full mx-auto">
           <div className="flex items-center justify-between gap-4 h-[70px]">
             <button
               ref={drawerButtonRef}
-              className="border-none h-[45px] w-[45] -ml-3 bg-transparent block lg:hidden"
+              className="border-none h-[45px] w-[45] bg-transparent block lg:hidden"
               aria-haspopup="true"
               onClick={() => setIsDrawerOpen(true)}
             >
