@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Heading from "@/components/typography/Heading";
 import MaxWidthWrapper from "../layout/MaxWidthWrapper";
+import { X } from "lucide-react";
 
 interface Image {
   src: string;
@@ -91,17 +92,18 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
           >
             <div className="relative">
               <button
-                className="absolute top-2 right-2 text-white bg-gray-800 w-10 h-10 rounded-full"
+                className="absolute top-2 flex items-center justify-center right-2 rounded-full text-white bg-gray-800 p-1"
                 onClick={closeModal}
               >
-                &times;
+               <X className="w-4 h-4"/>
               </button>
               <Image
                 width={500}
                 height={400}
                 src={selectedImage.src}
                 alt={selectedImage.alt}
-                className="max-w-screen-lg max-h-screen-lg rounded-lg shadow-lg"
+                className="max-w-screen-lg max-h-screen-lg shadow-lg"
+               
               />
             </div>
           </div>
