@@ -69,13 +69,13 @@ const FleetList: React.FC<FleetProps> = ({ fleet }) => {
                     <div className="flex flex-col md:flex-col lg:flex-row gap-4 mt-4">
                       <Link
                         href={`/fleets/${car.slug}`}
-                        className="w-full border border-[#015f86] text-black px-4 py-3 rounded-md transition-all text-sm text-center"
+                        className="w-full border border-[#015f86] text-black text-[10px] leading-[21px] md:text-[12px] md:leading-[23px] lg:text-[14px] px-4 py-2 md:py-3 rounded-md transition-all text-center"
                       >
                         {car.actions.viewDetails}
                       </Link>
                       <Link
                         href={`/fleets/${car.slug}`}
-                        className="w-full flex items-center justify-center border border-[#015f86] bg-[#015f86] text-white rounded-md"
+                        className="w-full flex items-center justify-center text-[10px] leading-[21px] md:text-[12px] md:leading-[23px] lg:text-[14px] px-4 py-2 md:py-3 border border-[#015f86] bg-[#015f86] text-white rounded-md"
                       >
                         {car.actions.quoteBook}
                       </Link>
